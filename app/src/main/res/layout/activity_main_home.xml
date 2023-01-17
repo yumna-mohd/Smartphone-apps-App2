@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainHome">
+
+<!--image for the background design-->
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="515dp"
+        android:layout_height="848dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
+
+    <!--Image button for vegetable category-->
+    <ImageButton
+        android:id="@+id/vegetables"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="236dp"
+        android:backgroundTint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vegies" />
+
+    <!--Image button for beef category-->
+    <ImageButton
+        android:id="@+id/beef"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/vegetables"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/beef" />
+
+    <!--Image button for chicken category-->
+    <ImageButton
+        android:id="@+id/chicken"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beef"
+        app:srcCompat="@drawable/chicken" />
+
+    <!--Image button for dessert category-->
+    <ImageButton
+        android:id="@+id/dessert"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chicken"
+        app:srcCompat="@drawable/dessert" />
+
+    <!--Image button for pasta category-->
+    <ImageButton
+        android:id="@+id/pasta"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="236dp"
+        android:backgroundTint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seafood"
+        app:srcCompat="@drawable/pasta" />
+
+    <!--Image button for seafood category-->
+    <ImageButton
+        android:id="@+id/seafood"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="236dp"
+        android:backgroundTint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vegetables"
+        app:srcCompat="@drawable/seafood" />
+
+    <!--Image button for profile icon-->
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="345dp"
+        android:backgroundTint="#e5e4fc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <!--Image button for arrow icon-->
+    <ImageButton
+        android:id="@+id/arrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="752dp"
+        android:layout_marginEnd="284dp"
+        android:backgroundTint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow" />
+
+    <!--Image button for info icon-->
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="180dp"
+        android:backgroundTint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/info1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
